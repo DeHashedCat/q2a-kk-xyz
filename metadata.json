@@ -1,0 +1,14 @@
+{
+    "name": "AntiBot Captcha v3",
+    "uri": "https://github.com/DeHashedCat/q2a-kk-xyz",
+    "description": "Provides support for AntiBot Captcha",
+    "version": "3.0.0",
+    "date": "2025-10-23",
+    "author": "Krzysztof Kielce [enhanced by Margout]",
+    "author_uri": "https://github.com/fuckfuckgo",
+    "license": "GPLv3",
+    "update_uri": "https://raw.githubusercontent.com/DeHashedCat/q2a-kk-xyz/refs/heads/main/metadata.json",
+    "min_q2a": "1.8.0",
+    "min_php": "7.0.0",
+    "load_order": "after_db_init"
+}
