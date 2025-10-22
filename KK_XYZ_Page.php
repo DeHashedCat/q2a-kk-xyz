@@ -58,7 +58,6 @@ class KK_XYZ_Page
         imagefill($image, 0, 0, $background_color);
         imagecolortransparent($image, $background_color);
 
-
         $num_chars = strlen($chars);
         $max_index = $num_chars - 1;
 
@@ -131,7 +130,6 @@ class KK_XYZ_Page
 
             $num_lines = (int)($noise / 2.5);
 
-
             for ($i = 0; $i < $num_lines; $i++) {
                 $x1 = random_int(0, $max_width);
                 $y1 = random_int(0, $max_height);
@@ -144,7 +142,6 @@ class KK_XYZ_Page
                 imageline($image, $x1, $y1, $x2, $y2, $line_color);
             }
 
-
             imagefilter($image, IMG_FILTER_CONTRAST, -(int)($noise / 4));
         }
         else {
@@ -155,4 +152,5 @@ class KK_XYZ_Page
             imagefilter($image, IMG_FILTER_EDGEDETECT);
         }
     }
+
 }
